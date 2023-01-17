@@ -1,0 +1,106 @@
+
+
+.title{
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+   
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap ;
+    justify-content: center;
+}
+
+.card{
+    width: 25rem;
+    height:250px;
+    display: flex;
+    background: #6AE0AA;
+    overflow: hidden;
+    object-fit: cover;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+
+img{ 
+    width: 25rem;
+    height: 75%;
+    border-radius: 10px 10px 0px 0px;}
+
+.card-body{
+    *display: flex;
+    height: 15%;
+    *margin: 20px; 
+    position: absolute;
+   width: auto;
+    *background-color: #6AE0AA;
+}
+.competitionName{
+    display: flex;
+    background-color:#6AE0AA;
+    position: relative; 
+    top:182px;
+    left: 0;
+    padding: 5px;
+
+}
+.match{ 
+    *display: flex;
+    *border-radius: 10px 0px 0px 10px;
+    background-color: black;
+    position: relative; 
+    float: inline-end;
+    top:185px;
+    left: 0;
+    padding: 2px;
+}
+
+
+h1{
+    display: flex;
+    background: #6AE0AA;;}
+
+h2,h4, h5 {
+    display: flex;
+    color: #fff;
+}
+
+/*
+@media screen and (max-width: 100%) {
+    .container{
+display: flex;
+  
+    }
+	
+}
+
+@media screen and (max-width: 900px) {
+    .container{
+display: grid;
+
+    
+    }
+	
+}
+
+@media screen and (max-width: 700px) {
+    .container{
+        display: grid;
+        
+            
+            }
+}
+
+@media screen and (max-width: 600px) {
+    .container{
+        display: grid;        
+            
+            }
+}
+*/
