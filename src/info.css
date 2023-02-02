@@ -62,9 +62,13 @@ img{
 }
 
 .btn{
-    width: 200px;
-    height: 70px;
-    background-color: blue;
+    background: transparent;
+    border-radius: 20px 20px 20px 20px;
+    width: 55px;
+    height: 23px;
+    position: relative;
+    top: 162px;
+    left: 331px;
 }
 
 h1{
