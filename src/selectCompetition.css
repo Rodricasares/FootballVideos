@@ -1,0 +1,13 @@
+.selectCompetition{
+    display: flex;
+    width: 100%;
+    color: #fff;
+    margin-left: 2rem;
+    justify-content: center;
+}
+.optionSelect{
+    color:#222;
+    justify-content: center;
+    margin: 1rem;
+    width: 90rem;
+}

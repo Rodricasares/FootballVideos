@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
-import { Info } from './info'
+import { Info } from './componet/info'
 
 function App() {
 
@@ -10,6 +10,9 @@ function App() {
     <div className="App">
 
 <Info />
+
+
+
     </div>
   )
 }

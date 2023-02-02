@@ -38,7 +38,7 @@ img{
     height: 15%;
     *margin: 20px; 
     position: absolute;
-   width: auto;
+    width: auto;
     *background-color: #6AE0AA;
 }
 .competitionName{
@@ -61,20 +61,37 @@ img{
     padding: 2px;
 }
 
+.btn{
+    width: 200px;
+    height: 70px;
+    background-color: blue;
+}
 
 h1{
     display: flex;
-    background: #6AE0AA;;}
-
-h2,h4, h5 {
+    background: #6AE0AA;}
+    
+h2,h4,h5 {
     display: flex;
     color: #fff;
 }
 
+.p1{
+   color: #fff;
+   font-size: large;
+   text-align: center;
+   margin-top: 10px;
+}
+
+select{
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
 /*
 @media screen and (max-width: 100%) {
     .container{
-display: flex;
+    display: flex;
   
     }
 	
@@ -82,7 +99,7 @@ display: flex;
 
 @media screen and (max-width: 900px) {
     .container{
-display: grid;
+    display: grid;
 
     
     }
@@ -91,16 +108,16 @@ display: grid;
 
 @media screen and (max-width: 700px) {
     .container{
-        display: grid;
+    display: grid;
         
             
-            }
+    }
 }
 
 @media screen and (max-width: 600px) {
     .container{
-        display: grid;        
+    display: grid;        
             
-            }
+    }
 }
 */
